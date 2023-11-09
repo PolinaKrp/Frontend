@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Лабораторная работа №6</title>
+    <link
+        rel="shortcut icon"
+        href="assets/images/icon-actor.ico"
+        type="image/x-icon"
+    >
+    <link rel="stylesheet" href="style/info.css">
+</head>
+<body data-bs-spy="scroll">
+    <nav class="navbar navbar-expand-sm bg-light sticky-top">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Об актере
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#photo">Фотогалерея</a></li>
+                        <li><a class="dropdown-item" href="#films">Фильмография</a></li>
+                        <li><a class="dropdown-item" href="#bio">Биография</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="films.html">Фильмы</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="display-1">Ким Джи-Хун</h1>
+    <div class="display-2-block">
+        <h2 class="display-2" id="photo">Фотогалерея</h2>
+    </div>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <p><img src="фото1.jpg" alt="Kim-Ji-hoon" class="d-block" style="width:100%"></p>
+            </div>
+            <div class="carousel-item">
+                <p><img src="фото2.jpg" alt="Kim-Ji-hoon" class="d-block" style="width:100%"></p>
+            </div>
+            <div class="carousel-item">
+                <p><img src="фото3.jpg" alt="Kim-Ji-hoon" class="d-block" style="width:100%"></p>
+            </div>
+            <div class="carousel-item">
+                <p><img src="фото4.jpg" alt="Kim-Ji-hoon" class="d-block" style="width:100%"></p>
+            </div>
+            <div class="carousel-item">
+                <p><img src="фото5.jpg" alt="Kim-Ji-hoon" class="d-block" style="width:100%"></p>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="display-2-block">
+        <h2 class="display-2" id="films">Фильмография</h2>
+    </div>
+
+    <div class="container mt-3 film">
+        <div class="card film">
+            <img class="card-img-top" src="ballerina.jpg" alt="Баллерина">
+            <div class="card-body">
+                <h4 class="card-title">Баллерина</h4>
+                <p class="card-text">
+                    <u>Год производства: </u>2023<br>
+                    <u>Платформа: </u>Netflix<br>
+                    <u>Страна: </u><br>
+                    <u>Жанр: </u>боевик, криминал<br>
+                    <u>Режиссер: </u>Ли Чхун-хён<br>Южная Корея
+                    <u>В главных ролях: </u>Чон Джон-со, Ким Джи-хун, Пак Ю-рим, Щин Сэ-хви<br>
+                </p>
+            </div>
+            <a href="https://www.kinopoisk.ru/film/4934962/" class="btn btn-primary">подробнее</a>
+        </div>
+
+        <div class="card film">
+            <img class="card-img-top" src="MH.jpg" alt="Бумажный дом: Корея">
+            <div class="card-body">
+                <h4 class="card-title">Бумажный дом: Корея</h4>
+                <p class="card-text">
+                    <u>Год производства: </u>2022<br>
+                    <u>Платформа: </u>Netflix<br>
+                    <u>Страна: </u>Южная Корея<br>
+                    <u>Жанр: </u>триллер, криминал, драма<br>
+                    <u>Режиссер: </u>Ким Хон-сон<br>
+                    <u>В главных ролях: </u>Ю Джи-тхэ, Ким Юн-джин, Пак Хэ-су, Чон Джон-со,
+                    Ли Вон-джон, Пак Мён-хун, Ким Сон-о, Ким Джи-хун, Чан Юн-джу, Ли Джу-бин<br></p>
+            </div>
+            <a href="https://www.kinopoisk.ru/series/1445215/" class="btn btn-primary">подробнее</a>
+        </div>
+
+        <div class="card film">
+            <img class="card-img-top" src="flower-of-evil.jpg" alt="Цветок зла">
+            <div class="card-body">
+                <h4 class="card-title">Цветок зла</h4>
+                <p class="card-text">
+                    <u>Год производства: </u>2020<br>
+                    <u>Страна: </u>Южная Корея<br>
+                    <u>Платформа: </u>Netflix<br>
+                    <u>Жанр: </u>триллер, детектив, мелодрама, криминалр<br>
+                    <u>Режиссер: </u>Ким Чхоль-гю<br>
+                    <u>В главных ролях: </u>Ли Джун-ги, Мун Чхэ-вон, Чан Хи-джин, Со Хён-у, Ким Джи-хун<br>
+                </p>
+            </div>
+            <a href="https://www.kinopoisk.ru/series/1338255/" class="btn btn-primary">подробнее</a>
+        </div>
+    </div>
+    <div class="display-2-block">
+        <h2 class="display-2" id="bio">Биография</h2>
+    </div>
+
+    <div class="container bio">
+        <div class="card bio">
+            <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" data-bs-target="#demo1">
+                    Детство и семья
+                </a>
+            </div>
+            <div id="demo1" class="collapse show">
+                <div class="card-body">
+                    Будущий актер родился 9 мая 1981 года в Сеуле. С малых лет Джи Хун рос артистичным и не боялся публики. Об актерской карьере он не думал, но с самого детства мечтал прославиться. И вскоре ему это удалось: уже в юности он прошел стажировку в крупнейшую развлекательную компанию Южной Кореи — SM Entertainment, где работал виджеем.<br><br>
+                    По мере взросления планы и мечты Кима менялись, он никак не мог определиться с будущей профессией. После окончания средней школы он поступил в педагогический колледж, а позже продолжил обучение в Университете Аджу, где изучал психологию.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bio">
+            <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" data-bs-target="#demo2">
+                    Творческий путь
+                </a>
+            </div>
+            <div id="demo2" class="collapse show">
+                <div class="card-body">
+                    Кинематографическая биография Джи Хуна складывалась не так, как ему хотелось. Ему пришлось немало потрудиться, чтобы достичь определенных высот в актерском ремесле. Сказывалось и отсутствие профессионального образования, которое тем не менее компенсировалось природным талантом и привлекательной внешностью.<br><br>
+                    Дебют Джи Хуна состоялся в телевизионной драме «Рецепт любви», где он получил эпизодическую роль. Далее последовал ряд небольших проектов на телевидении, которые транслировались по субботам и воскресеньям. А Кима с легкой руки зрителей окрестили «принцем дорам выходного дня».<br><br>
+                    На заре кинематографической карьеры исполнитель играл преимущественно однотипных персонажей. Все изменила армия, где он полностью пересмотрел взгляды на актерскую профессию. Если раньше Джи Хун соглашался на роли, не требующие глубокого погружения в образ, то по возвращении домой он начал отдавать предпочтение героям трудной судьбы, делая основной упор на качество игры.<br><br>
+                    Долгожданный прорыв не заставил себя долго ждать. После выхода на экраны мелодрамы «Богиня брака» Джи Хун проснулся знаменитым — его заметили как зрители, так и критики. Артист приложил немало усилий, чтобы отойти от роли «сладкого мальчика» и создать жесткого и холодного, как мраморное изваяние, Тэ Ука. Во время съемок он даже ни разу не пошутил, чтобы не выходить из образа.<br><br>
+                    Ким Джи Хун в сериале «Цветок зла»Ким Джи Хун в сериале «Цветок зла» Визитной карточкой актера на долгие годы стала роль Ли Чжэ Хва в дораме «Вперед! Чан Бо-ри». Несмотря на то что Ким вырос в среднестатической семье среднего достатка, ему удалось достоверно изобразить представителя элиты. В отличие от «Богини брака», на этих съемках актер сумел расслабиться, он много шутил и веселился с партнершами Хван Ён Хи и О Ён Со.<br><br>
+                    Дальнейшая фильмография Кима включала популярные дорамы, такие как «Звездная ночь Ко-хо» и «Мужчина в моем доме», в которых он играл второстепенные роли и делил съемочную площадку с известными корейскими актерами.<br><br>
+                    Сериалом «Вавилон» Джи Хун открыл новые грани своего таланта. Он давно мечтал воплотить на экране острохарактерного героя. И хотя его Тэ Мин Хо нельзя было назвать однозначно отрицательным персонажем, актеру понравилось работать над ролью.<br><br>
+                    Поистине звездным часом в карьере Кима стала драма «Цветок зла». Артист давно ждал возможности сменить амплуа и сыграть настоящего психопата, от взгляда и жестов которого действительно пробегает холодок по спине. Ему это удалось — зрители даже посчитали его дебютантом и сильно удивились, когда узнали в нем звезду сериала «Вперед! Чан Бо-ри».<br><br>
+                    В «Цветке зла» Джи Хун в полной мере продемонстрировал способности к психологическому прочтению роли. Игра получилась настолько впечатляющей и пугающей, что поклонники дорам называли его героя самым устрашающим персонажем телесериалов. Для актера такие лестные комментарии стали главной наградой, поскольку он устал от сугубо положительных образов. Съемки запомнились Киму работой со звездой фильма «Король и шут» Ли Джун Ги, которого он назвал настоящим профессионалом и восхитился его упорством.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bio">
+            <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" data-bs-target="#demo3">
+                    Личная жизнь
+                </a>
+            </div>
+            <div id="demo3"class="collapse show">
+                <div class="card-body">
+                    Корейская знаменитость отличается откровенностью во многих сферах, но личную жизнь не афиширует. Природа щедро наградила Джи Хуна красотой: он обладает копной длинных густых волос, идеальной, словно фарфоровой, кожей и высоким ростом (178 см).<br><br>
+                    Яркая внешность и неповторимое обаяние быстро превратили его в настоящего секс-символа в Южной Корее. Многочисленные поклонницы многое бы отдали, чтобы однажды назваться его женой. Однако Ким считает себя одиночкой по натуре и признается, что давно привык жить один. Он даже научился готовить, причем особую любовь питает к японской кухне.<br><br>
+                    Актер имеет множество разносторонних интересов. Одно время он сходил с ума по боулингу и даже приобрел себе именной шар. Важную часть в жизни Джи Хуна занимает спорт. С завидной регулярностью он играет в баскетбол, а также делает растяжку и асаны из йоги. Среди других увлечений артиста — уроки вокального мастерства, которые помогают ему в актерской профессии.<br><br>
+                    В личном блоге в «Инстаграме» (соцсеть запрещена в России, она принадлежит корпорации Meta, которая признана в РФ экстремистской) Джи Хун регулярно поддерживает связь с армией своих поклонников, балуя их идеальными фотографиями. Тем не менее на них он позирует преимущественно в одиночестве, не давая поводов для сплетен.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bio">
+            <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" data-bs-target="#demo4">
+                    Интересные факты
+                </a>
+            </div>
+            <div id="demo4" class="collapse show">
+                <div class="card-body">
+                    <ul>
+                        <li>
+                            Джи Хун любит скорость, однако не позволяет себе гонять. Его коллекция включает автомобиль Mercedes-Benz CLA AMG и мотоцикл марки BMW, но мечтает актер о «железном коне» Harley-Davidson Iron 883.
+                        </li>
+                        <li>
+                            Утро Кима начинается с проверки ситуации на фондовом рынке. «Я думаю, что все акции растут, кроме моих. Если я продаю акции, они вырастают, если покупаю, то падают. Полагаю, такое случается со всеми», — со смехом рассказывает знаменитость.
+                        </li>
+                        <li>
+                            Гордость актера — длинные волосы, которые успели стать его визитной карточкой. Он очень щепетильно ухаживает за шевелюрой и готов расстаться с ней только ради достойной роли.
+                        </li>
+                        <li>
+                            Коронное блюдо Джи Хуна — твенджан ччигэ, представляющее собой рагу, приготовленное с использованием соевой пасты.
+                        </li>
+                        <li>
+                            Звезда корейских дорам следит за весом и время от времени практикует лечебное голодание.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
